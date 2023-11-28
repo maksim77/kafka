@@ -1,0 +1,10 @@
+bootstrap.servers=127.0.0.1:29092,127.0.0.1:39092,127.0.0.1:49092
+group.id=myconnect
+
+key.converter=org.apache.kafka.connect.json.JsonConverter
+value.converter=org.apache.kafka.connect.json.JsonConverter
+
+offset.storage.topic=connector_offset
+offset.storage.file.filename=offset
+config.storage.topic=connector_config
+status.storage.topic=connector_status

@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "path": "topic"
+    },
+    {
+      "path": "producer"
+    },
+	{
+	  "path": "consumer"
+	},
+  {
+    "path": "deployments"
+  }
+],
+"settings": {}
+}

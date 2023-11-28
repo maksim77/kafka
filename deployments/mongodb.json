@@ -1,0 +1,9 @@
+{"name": "mongo-source",
+ "config": {
+    "connector.class":"com.mongodb.kafka.connect.MongoSourceConnector",
+    "connection.uri":"mongodb://localhost:27017",
+    "database":"strava",
+    "collection":"workout",
+	"copy.existing": true
+    }
+}
