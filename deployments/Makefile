@@ -1,6 +1,6 @@
 clean: stop
 	rm -rf data/kafka{1,2,3} && rm -rf data/zoo{1,2,3} && mkdir -p data/kafka{1,2,3} && mkdir -p data/zoo{1,2,3}
-start:
+start: clean
 	docker compose up -d
 stop:
 	docker compose down
